@@ -1,6 +1,28 @@
 # saman
 Large file encryption
 
+Encrypt large files without causing resource issues and using modern cryptography.
+
+Features
+---
+
+Installation
+---
+
+`pip install -e ...`
+
+Usage
+---
+
+As a library:
+
+As a CLI:
+
+Documentation
+---
+
+[Link](https://omussell.github.io/saman)
+
 
 ## Code Complexity
 - [lizard](https://pypi.org/project/lizard/)
