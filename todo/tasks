@@ -1,0 +1,9 @@
+Investigate adding counter metadata to each chunk | id:5084fb24e857c74bc58b04ca53d6606c1a651928
+Create hash functions | id:513df7e2866f87b9b40b83ed998a0e1f14e64fbd
+Investigate using blake2b to create a hash of all the keyed hashes MAC | id:758f55a73ca92cc288fe06ddd6b7e1e23f7037e6
+Create decrypt functions | id:8fddda20866c49a0d669019410cfd0397bf1c74d
+Investigate generating a blake2b keyed hash MAC of the counter and its chunk number | id:96f2a06cb25ef28938ef91c2f20cb976a668ce51
+Do we need to generate a MAC of the chunk if Poly1305 has already done this | id:b18cea2db1f7167bc66d52bd3fe69843e1a7407b
+Create CLI using typer | id:c1fac0ec8742613b0e98ca6b16bdee36603df066
+Investigate using multiple sym keys per file to prevent nonce reuse | id:c300fb3f042fa7406b3f45fbe0e88c246a45f602
+Create encrypt functions | id:ea2c663add5d9c4652be5cec5bb84a511f4734c0
