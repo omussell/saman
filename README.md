@@ -6,6 +6,10 @@ Encrypt large files without causing resource issues and using modern cryptograph
 Features
 ---
 
+- Modern crypto - Ed25519, ChaCha20-Poly1305, Blake2b
+- Library and CLI
+- Async read/write?
+
 Installation
 ---
 
