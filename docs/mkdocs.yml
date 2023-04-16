@@ -1,0 +1,26 @@
+site_name: "HORTUS"
+theme:
+  name: "material"
+  font: false
+  palette:
+    primary: green
+    accent: light green
+  icon:
+    logo: material/leaf
+  favicon: images/leaf.svg
+  features:
+    - navigation.instant
+
+nav:
+    - Home: index.md
+    - Plant Information: plant-info.md
+    - Design Stages: design-stages.md
+    - Blog:
+        - "Food, Forests & Freedom": blog/fff.md
+        - "Robots, Reactors & Rockets": blog/rrr.md
+        - Zero Waste: blog/zerowaste.md
+        - Vegan: blog/vegan.md
+
+markdown_extensions:
+  - toc:
+      permalink: True

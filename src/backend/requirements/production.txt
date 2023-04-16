@@ -1,0 +1,10 @@
+fastapi
+#sqlmodel
+#alembic
+uvicorn
+python-dotenv
+pydantic
+pillow
+pycairo
+#psycopg
+jinja2
