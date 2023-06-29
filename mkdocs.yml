@@ -1,0 +1,20 @@
+site_name: "Saman"
+theme:
+  name: "material"
+  font: false
+  palette:
+    primary: amber
+    accent: blue
+  icon:
+    logo: material/lock
+  favicon: images/material-lock.svg
+  features:
+    - navigation.instant
+
+nav:
+    - Home: index.md
+    - Design: design.md
+
+markdown_extensions:
+  - toc:
+      permalink: True

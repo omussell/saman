@@ -1,0 +1,13 @@
+-r production.txt
+
+hatch
+
+ruff
+black
+
+pydantic
+mypy
+
+mkdocs
+mkdocs-material
+mkdocstrings
